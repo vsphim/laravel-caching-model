@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsphim\\CachingModel\Contracts;
+namespace Vsphim\CachingModel\Contracts;
 
 use Illuminate\Support\Collection;
 use Closure;

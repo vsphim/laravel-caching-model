@@ -1,13 +1,13 @@
 <?php
 
-namespace Vsphim\\CachingModel;
+namespace Vsphim\CachingModel;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
-use \Vsphim\\CachingModel\Contracts\BuilderInterface;
+use \Vsphim\CachingModel\Contracts\BuilderInterface;
 use Closure;
-use \Vsphim\\CachingModel\Contracts\Cacheable;
-use \Vsphim\\CachingModel\Exceptions\UnsupportedModelException;
+use \Vsphim\CachingModel\Contracts\Cacheable;
+use \Vsphim\CachingModel\Exceptions\UnsupportedModelException;
 
 class CacheQueryBuilder implements BuilderInterface
 {

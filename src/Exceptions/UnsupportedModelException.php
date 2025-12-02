@@ -1,6 +1,6 @@
 <?php
 
-namespace Vsphim\\CachingModel\Exceptions;
+namespace Vsphim\CachingModel\Exceptions;
 
 use Exception;
 

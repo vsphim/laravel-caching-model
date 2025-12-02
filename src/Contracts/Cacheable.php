@@ -1,8 +1,8 @@
 <?php
 
-namespace Vsphim\\CachingModel\Contracts;
+namespace Vsphim\CachingModel\Contracts;
 
-use \Vsphim\\CachingModel\Contracts\BuilderInterface;
+use \Vsphim\CachingModel\Contracts\BuilderInterface;
 
 interface Cacheable
 {
