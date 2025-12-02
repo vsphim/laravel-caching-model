@@ -5,8 +5,7 @@ namespace Vsphim\\CachingModel;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
 use \Vsphim\\CachingModel\Contracts\BuilderInterface;
-use Vsphim\\CachingModel\Contracts\Cacheable;
-
+use Vsphim\CachingModel\Repositories\CacheRepository;
 trait HasCache
 {
     protected static function bootHasCache()
