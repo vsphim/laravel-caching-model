@@ -1,0 +1,22 @@
+{
+    "name": "vsphim/laravel-caching-model",
+    "description": "A simple cache library for laravel eloquent model",
+    "type": "library",
+    "require": {
+        "php": "^7.0|^8.0",
+        "laravel/framework": "^6.0|^7.0|^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vsphim\\CachingModel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vsphim",
+            "email": "vsphim@vsphim.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
